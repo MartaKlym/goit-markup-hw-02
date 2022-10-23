@@ -214,7 +214,7 @@ body {
 .title-name {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -228,5 +228,3 @@ body {
     list-style: none;
     text-decoration: none;
 }
-
-
