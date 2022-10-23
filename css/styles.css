@@ -38,7 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var();
+    color: #212121;
 }
 .studio:visited {
     color: var(--secondary-color); 
@@ -210,6 +210,13 @@ body {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.title-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 .project {
     text-decoration: none;
