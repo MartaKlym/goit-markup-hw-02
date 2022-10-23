@@ -1,9 +1,13 @@
 
+:root {
+    --main-color:#FFFFFF;
+    --secondary-color: #2196F3;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #212121;
-    background: #FFFFFF;
+    color:#212121;
+    background: var(--main-color);
 }
 /*Header*/
 .logo {
@@ -21,7 +25,7 @@ body {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--secondary-color);
 }
 
 .lists {
@@ -34,13 +38,16 @@ body {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var();
+}
+.studio:visited {
+    color: var(--secondary-color); 
 }
 .portfolio:visited {
-    color: #2196F3; 
+    color: var(--secondary-color); 
 }
 .active-link:hover, .active-link:focus {
-    color: #2196F3;
+    color: var(--secondary-color);
 }
 .contacts {
     font-weight: 500;
@@ -53,7 +60,7 @@ body {
     font-style: normal;
 }
 .contacts:hover, .contacts:focus {
-    color: #2196F3;
+    color: var(--secondary-color);
 }
 /* Hero */
 .hero {
@@ -66,13 +73,14 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-color);
 }
 .button {
-    background: #2196F3;
+    background: var(--secondary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 .text-btn {
     font-weight: 700;
@@ -82,7 +90,13 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-color);
+}
+.button:hover{
+    background: var(--secondary-color);
+    color: var(--main-color);
+    text-decoration: none;
+    cursor: pointer;
 }
 /*Info*/
 
@@ -142,7 +156,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--main-color);
     text-decoration: none;
     list-style: none;
 }
@@ -185,9 +199,10 @@ body {
 }
 
 .button-tittle:hover, .button-tittle:focus {
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--secondary-color);
+    color: var(--main-color);
     text-decoration: none;
+    cursor: pointer;
 }
 .tittle-btn {
     font-weight: 500;
