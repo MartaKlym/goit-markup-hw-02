@@ -9,6 +9,7 @@ body {
     color:#212121;
     background-color: var(--main-color);
 }
+
 /*Header*/
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -27,7 +28,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
-
 .lists {
     text-decoration: none;
     list-style: none;
@@ -62,6 +62,7 @@ body {
 .contacts:hover, .contacts:focus {
     color: var(--secondary-color);
 }
+
 /* Hero */
 .hero {
     background-color: #2F303A;
@@ -81,16 +82,13 @@ body {
     border-radius: 4px;
     border: none;
     cursor: pointer;
-}
-.text-btn {
-    font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--main-color);
+    color: #FFFFFF;
 }
 .button:hover{
     background-color: var(--secondary-color);
@@ -98,8 +96,8 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-/*Info*/
 
+/*Info*/
 .lists-title {
     font-weight: 700;
     font-size: 14px;
@@ -113,6 +111,7 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
 /*About*/
 .about-title {
     font-weight: 700;
@@ -121,6 +120,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 /*Team*/
 .title-text {
     font-weight: 700;
@@ -203,13 +203,6 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-.tittle-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 .title-name {
     font-weight: 700;
     font-size: 18px;
@@ -223,7 +216,5 @@ body {
     text-decoration: none;
 }
 .project-info {
-    text-decoration: none;
-    list-style: none;
     text-decoration: none;
 }
