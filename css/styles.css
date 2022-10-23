@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #212121;
+    background: #FFFFFF;
 }
 /*Header*/
 .logo {
@@ -35,6 +36,9 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
 }
+.portfolio:visited {
+    color: #2196F3; 
+}
 .active-link:hover, .active-link:focus {
     color: #2196F3;
 }
@@ -46,6 +50,7 @@ body {
     color: #757575;
     text-decoration: none;
     list-style: none;
+    font-style: normal;
 }
 .contacts:hover, .contacts:focus {
     color: #2196F3;
@@ -153,6 +158,10 @@ body {
 
 
 /*Portfolio*/
+
+.portfolio-btn {
+    list-style: none;   
+}
 .button-tittle {
     width: 81px;
     height: 26px;
@@ -164,11 +173,11 @@ body {
     cursor: pointer;
 }
 
-.button-tittle :hover, .button-tittle :focus {
+.button-tittle:hover, .button-tittle:focus {
     background: #2196F3;
     color: #FFFFFF;
+    text-decoration: none;
 }
-
 .tittle-btn {
     font-weight: 500;
     font-size: 16px;
@@ -179,4 +188,10 @@ body {
 .project {
     text-decoration: none;
     list-style: none;
+    text-decoration: none;
+}
+.project-info {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
 }
